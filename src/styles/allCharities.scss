@@ -1,0 +1,41 @@
+.all-charities{
+	flex-direction: column;
+	display: flex;
+	h1{
+		text-align: center;
+	}
+}
+.all-charities__list{
+	padding: 10px 30px;
+	ul{
+		list-style: none;
+		margin-block-start: 0em;
+		margin-block-end: 0em;
+		padding-inline-start: 0em;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	li{
+		display: flex;
+		flex-direction: column;
+		padding: 20px;
+    border: 1px solid gray;
+		border-radius: 10px;
+		width: 200px;
+		margin: 10px 20px;
+		a{
+			margin: 0 auto;
+			text-align: center;
+		}
+	}
+	img{
+		width: 150px;
+		height: auto;
+		margin: auto;
+	}
+}
+.all-charities__link{
+	color: black;
+	text-decoration: underline;
+}

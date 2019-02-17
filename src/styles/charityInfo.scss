@@ -1,0 +1,47 @@
+.charity{
+	padding: 10px 30px;
+}
+.charity-info {
+	display: flex;
+	flex-direction: column;
+	padding: 0px 20px;
+}
+.charity-info__header{
+	display: flex;
+  flex-direction: row;	
+}
+.charity-info__logo{
+	max-width: 150px;
+	max-height: auto;	
+}
+.charity-info__header--col{
+	width: 50%;
+}
+.charity-info__donations{
+	ul{
+		list-style: none;
+		margin-block-start: 0em;
+		margin-block-end: 0em;
+		padding-inline-start: 0em;
+	}
+}
+.charity-info__donation{
+	display: flex;
+	flex-direction: row;
+	margin: 10px 0px;
+	border: 1px solid #9e9e9e;
+	padding: 20px;
+	border-radius: 10px;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);
+	background: -webkit-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+}
+.charity-info__donation--col{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	img{
+		width: 100px;
+    height: auto;
+    margin-left: auto;
+	}
+}
